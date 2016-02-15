@@ -1,6 +1,29 @@
 History/CHANGELOG
 =================
 
+2.3
+---
+
+(June 29, 2014)
+
+* Allow custom transports for XML-RPC connections.
+* Fix JPEG file MIME-type.
+* Import media methods correctly.
+* Fix ``ping_status`` field definition.
+* Workaround a bug encountered when fetching old draft posts (#40, props strycore).
+* Fixed some documentation bugs.
+
+2.2
+---
+
+(December 2, 2012)
+
+* Add ``wp.newComment`` variant for anonymous comments.
+* Added support for user methods.
+* Added support for post revisions.
+* Fixed comment ``date_created`` field definition.
+* Better unicode string handling.
+
 2.1
 ---
 
